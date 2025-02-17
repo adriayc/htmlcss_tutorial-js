@@ -18,3 +18,8 @@
 - <p>text</p> === Paragraph Element
 - <img src="..." /> === Image Element
 - <bt /> === Line Break
+
+## Google Chrome and Visual Studio Code
+
+- Google Chrome - Web Browser
+- Visual Studio Code - Text Editor
