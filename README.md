@@ -22,4 +22,4 @@
 ## Google Chrome and Visual Studio Code
 
 - [Google Chrome](https://www.google.com/chrome/) - Web Browser
-- Visual Studio Code - Text Editor
+- [Visual Studio](https://code.visualstudio.com/) Code - Text Editor
