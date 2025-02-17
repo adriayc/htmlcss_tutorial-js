@@ -43,3 +43,7 @@
   </body>
 </html>
 ```
+
+## VSCode Extensions
+
+- Live Server
