@@ -23,3 +23,23 @@
 
 - [Google Chrome](https://www.google.com/chrome/) - Web Browser
 - [Visual Studio](https://code.visualstudio.com/) Code - Text Editor
+
+## Basic HTML Document Structure
+
+```html
+<!-- HTML VERSION -->
+<!DOCTYPE html>
+<!-- ROOT ELEMENT -->
+<html lang="en">
+  <!-- INFORMATION ABOUT THE PAGE (META, LINKS, TITLE) -->
+  <head>
+    <!-- PAGE TITLE -->
+    <title>Document</title>
+    ...META,LINKS
+  </head>
+  <!-- WHAT WILL BE DISPLAYED ON THE PAGE -->
+  <body>
+    ...PAGE CONTENT
+  </body>
+</html>
+```
