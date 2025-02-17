@@ -47,3 +47,24 @@
 ## VSCode Extensions
 
 - Live Server
+- [Emmet](https://emmet.io/)
+
+## Extra Settings
+
+- Font Size (Manage -> Settings -> Search..."font size")
+
+```conf
+Editor > Font Size: 12
+```
+
+- Tab Size (Manage -> Settings -> Search..."tab size")
+
+```conf
+Editor > Tab Size: 2
+```
+
+- Word Wrap (Manage -> Settings -> Search..."word wrap")
+
+```conf
+Editor > Word Wrap: on
+```
