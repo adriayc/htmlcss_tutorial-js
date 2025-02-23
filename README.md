@@ -48,6 +48,7 @@
 
 - Live Server
 - [Emmet](https://emmet.io/)
+- Prettier - Code Formatter
 
 ## Extra Settings
 
@@ -67,4 +68,12 @@ Editor > Tab Size: 2
 
 ```conf
 Editor > Word Wrap: on
+```
+
+- Default Formatter, Format On Paste and Save (Manage -> Settings -> Search..."formate on")
+
+```config
+Editor: Default Formatter: Prettier - Code Formatter
+Editor: Format On Paste: true
+Editor: Format On Save: true
 ```
