@@ -77,3 +77,11 @@ Editor: Default Formatter: Prettier - Code Formatter
 Editor: Format On Paste: true
 Editor: Format On Save: true
 ```
+
+## CSS Intro
+
+- CSS - CASCADING STYLE SHEETS
+- RESPONSIBLE FOR STYLING THE WEB
+- HTML - STRUCTURE, CSS - LAYOUT, LOOK
+- selector { property: value }
+- h1 { color: red; font-size: 30px }
