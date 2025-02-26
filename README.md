@@ -50,6 +50,12 @@
 - [Emmet](https://emmet.io/)
 - Prettier - Code Formatter
 
+Extra Extensions
+
+- Indent Rainbow
+- Auto Rename Tag
+- Hightlight Matching Tag
+
 ## Extra Settings
 
 - Font Size (Manage -> Settings -> Search..."font size")
