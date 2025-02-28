@@ -99,3 +99,12 @@ Editor: Format On Save: true
 3. Simple in the beginning
 4. Repetition
 5. Multiple possible solutions
+
+## Colors
+
+- color, background-color, background
+- Color names
+- Rgb, Rgba
+- Hex
+- Visual Studio Code Color Options
+- External Resources
