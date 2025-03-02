@@ -116,3 +116,9 @@ Editor: Format On Save: true
 - em, rem
 - vw, vh
 - font-size, height, width
+
+## Typography
+
+- Properties
+- Font-stack, generic family
+- Google Fonts
