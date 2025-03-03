@@ -122,3 +122,11 @@ Editor: Format On Save: true
 - Properties
 - Font-stack, generic family
 - Google Fonts
+
+## CSS Box Model
+
+- CSS Box Model
+- padding
+- border
+- margin
+- border-radius, negative margin
