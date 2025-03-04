@@ -130,3 +130,11 @@ Editor: Format On Save: true
 - border
 - margin
 - border-radius, negative margin
+
+## Display Property
+
+- display:
+- block
+- inline
+- inline-block
+- box-sizing: border-box
