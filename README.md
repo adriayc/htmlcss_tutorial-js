@@ -156,3 +156,9 @@ Editor: Format On Save: true
 - media-queries
 - z-index
 - ::before ::after pseudo elements
+
+## More Selectors
+
+- Basic Selectors
+- Pseudo Class Selectors
+- Pseudo Element Selectors
