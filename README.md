@@ -168,3 +168,13 @@ Editor: Format On Save: true
 - transform: translate(), rotate(), scale(), skew()
 - transition: (change over time)
 - animation: (change over time with more control)
+
+## CSS Tutorials
+
+- CSS Variables
+- Font Awesome Icons
+- text-shadow, box-shadow
+- Browser Prefixes
+- Semantic HTML
+- object-fit
+- Emmet Snippets
