@@ -7,3 +7,4 @@ Tools:
     - Browser: fontawesome cdnjs
     - CDNJS: Search... "font-awesome"
     COPY Link Tag "https://cdnjs.../libs/font-awesome/.../css/all.min.css"
+  > SVG: Icons / Search... "coffee" / Select icon "mug-saucer" / SVG | Copy Code Snippet
