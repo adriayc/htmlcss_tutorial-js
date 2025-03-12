@@ -8,3 +8,5 @@ Tools:
     - CDNJS: Search... "font-awesome"
     COPY Link Tag "https://cdnjs.../libs/font-awesome/.../css/all.min.css"
   > SVG: Icons / Search... "coffee" / Select icon "mug-saucer" / SVG | Copy Code Snippet
+
+HTML Semantics (URL: https://www.w3schools.com/html/html5_semantic_elements.asp)
