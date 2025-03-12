@@ -10,3 +10,6 @@ Tools:
   > SVG: Icons / Search... "coffee" / Select icon "mug-saucer" / SVG | Copy Code Snippet
 
 HTML Semantics (URL: https://www.w3schools.com/html/html5_semantic_elements.asp)
+
+Emmet (URL: https://emmet.io/)
+  > Documentation / Abbreviations | Implicit tag names
