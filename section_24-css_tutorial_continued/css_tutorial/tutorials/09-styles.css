@@ -7,7 +7,7 @@ img {
   width: 100%;
   display: block;
   height: 300px;
-  /* object-fit */
+  /* objet-fit */
   object-fit: cover;
 }
 .one {
