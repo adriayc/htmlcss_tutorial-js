@@ -13,3 +13,7 @@ HTML Semantics (URL: https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 Emmet (URL: https://emmet.io/)
   > Documentation / Abbreviations | Implicit tag names
+
+Extensions VSCode:
+* Live Server (Five Server)
+* Preview on Web Server (optional)

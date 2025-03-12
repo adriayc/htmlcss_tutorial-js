@@ -49,6 +49,7 @@
 - Live Server
 - [Emmet](https://emmet.io/)
 - Prettier - Code Formatter
+- Live Server (Five Server)
 
 Extra Extensions
 
