@@ -30,6 +30,18 @@ body {
   color: var(--grey-dark);
 }
 
+/* global styles */
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+/* img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+} */
+
 .blogs {
   padding: 5rem 0;
 }
@@ -57,7 +69,10 @@ body {
 .blog:hover {
   box-shadow: var(--shadow-dark);
 }
-
-img {
-  width: 100%;
+.blog-img {
+  /* width: 100%;
+  display: block;
+  object-fit: cover; */
+  border-radius: var(--border-radius);
+  margin-bottom: 0.5rem;
 }
