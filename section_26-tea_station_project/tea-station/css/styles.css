@@ -123,6 +123,12 @@ p {
   color: var(--ff-primary);
   background: var(--clr-primary-light);
 }
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
 
 /*
 =======================
@@ -207,4 +213,15 @@ Skills
   max-width: 17rem;
   color: var(--clr-gray-5);
   margin: 0 auto;
+}
+@media screen and (min-width: 576px) {
+  .skill {
+    float: left;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .skill {
+    width: 25%;
+  }
 }
