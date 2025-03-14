@@ -175,3 +175,36 @@ Header
     var(--crl-primary)
   );
 }
+
+/*
+=======================
+Skills
+=======================
+*/
+.skills {
+  background: var(--clr-gray-10);
+}
+.skill {
+  text-align: center;
+  padding: 2.5rem 0;
+  transition: var(--transition);
+}
+.skill:hover {
+  background: var(--clr-white);
+  box-shadow: 0 2px var(--crl-primary);
+}
+.skill-icon {
+  color: var(--crl-primary);
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+  transition: var(--transition);
+  display: inline-block;
+}
+.skill:hover .skill-icon {
+  transform: translateY(-5px);
+}
+.skill-text {
+  max-width: 17rem;
+  color: var(--clr-gray-5);
+  margin: 0 auto;
+}
