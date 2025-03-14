@@ -150,6 +150,7 @@ Header
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* descendant */
 .banner h2 {
   color: var(--crl-primary);
   font-family: var(--ff-secondary);
@@ -199,6 +200,9 @@ Skills
   background: var(--clr-white);
   box-shadow: 0 2px var(--crl-primary);
 }
+/* descendant */
+/* .skill span { */
+/* class */
 .skill-icon {
   color: var(--crl-primary);
   font-size: 2.5rem;
