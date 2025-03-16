@@ -369,7 +369,22 @@ Services
   border-top-right-radius: var(--radius);
 }
 /* service icon */
-
+.service-img-container {
+  position: relative;
+}
+.service-icon {
+  color: var(--crl-primary);
+  background: var(--clr-primary-light);
+  font-size: 2rem;
+  padding: 0.25rem 0.6rem;
+  border: 0.375rem solid var(--clr-gray-10);
+  border-radius: 50%;
+  /* center icon */
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+}
 .service-info {
   text-align: center;
   padding: 3rem 1rem 2.5rem 1rem;
