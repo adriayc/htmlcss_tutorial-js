@@ -417,3 +417,76 @@ Services
     margin-right: 3.333%;
   }
 }
+
+/*
+=======================
+Contact
+=======================
+*/
+.contact {
+  background: var(--clr-gray-10);
+}
+.contact-info,
+.contact-form {
+  margin: 1rem 0;
+}
+.contact-item {
+  margin-bottom: 1.75rem;
+}
+.contact-title {
+  color: var(--crl-primary);
+  font-weight: 400;
+}
+.contact-text {
+  text-transform: uppercase;
+}
+.contact-form {
+  max-width: 35rem;
+  background: var(--clr-white);
+  text-align: center;
+  border-radius: var(--radius);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: var(--transition);
+}
+.contact-form:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.contact-form h3 {
+  color: var(--clr-gray-5);
+  padding-top: 1.25rem;
+}
+.form-group {
+  padding: 1rem 1.5rem;
+}
+.form-control {
+  width: 100%;
+  background: var(--clr-gray-10);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: var(--radius);
+  margin-bottom: 1.25rem;
+}
+/* ::placeholder pseudo-element */
+.form-control::placeholder {
+  color: var(--clr-gray-1);
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
+.submit-btn {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+@media screen and (min-width: 992px) {
+  .contact-info,
+  .contact-form {
+    width: 50%;
+    float: left;
+  }
+}
