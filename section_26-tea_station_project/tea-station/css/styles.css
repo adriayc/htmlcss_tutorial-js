@@ -164,6 +164,20 @@ Navbar
   z-index: 1;
   cursor: pointer;
   /* animation */
+  /* animation: name duration timing-fn delay iteration-count */
+  animation: bounce 2s ease infinite;
+}
+/* animation nav button */
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 /* navbar */
 .navbar {
@@ -248,6 +262,26 @@ Header
   color: var(--crl-primary);
   font-family: var(--ff-secondary);
   /* animation */
+  animation: slideFromRight 5s ease 1;
+}
+/* animation h2 */
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-200px);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translateX(50px);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 .banner h1 {
   color: var(--clr-white);
@@ -255,6 +289,26 @@ Header
   margin-top: 1.25rem;
   margin-bottom: 2rem;
   /* animation */
+  animation: slideFromLeft 5s ease 1;
+}
+/* animation h1 */
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(200px);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translateX(-50px);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .banner-btn {
@@ -263,6 +317,23 @@ Header
   /* outline is a line draw outside the element's border */
   outline: 0.125rem solid var(--crl-primary);
   outline-offset: 0.25rem;
+  /* animation */
+  animation: show 5s linear 1;
+}
+/* animation banner-btn */
+@keyframes show {
+  0% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* content divider */
