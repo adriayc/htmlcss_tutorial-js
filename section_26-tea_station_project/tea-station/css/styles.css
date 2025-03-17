@@ -490,3 +490,31 @@ Contact
     float: left;
   }
 }
+
+/*
+=======================
+Footer
+=======================
+*/
+.footer {
+  background: #222;
+  text-align: center;
+}
+.social-icon {
+  color: var(--clr-white);
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: var(--transition);
+}
+.social-icon:hover {
+  color: var(--crl-primary);
+}
+.footer-text {
+  color: var(--clr-white);
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 1.25rem;
+}
+.company {
+  color: var(--crl-primary);
+}
