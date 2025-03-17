@@ -179,8 +179,11 @@ Navbar
   inset: 0;
   z-index: 2;
   /* hide navbar */
+  transform: translateX(-100%);
+  transition: var(--transition);
 }
 .showNav {
+  transform: translateX(0);
 }
 .navbar-header {
   text-align: right;
