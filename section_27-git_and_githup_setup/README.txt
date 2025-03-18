@@ -22,6 +22,10 @@ GIT AND GITHUB WORKFLOW
         $ git remote add origin https://github.com/{{USERNANE}}/{{REPO_NAME}}.git
         $ git push -u origin master
 
+        Clone
+        $ git clone {{SSL/HTTPS_URL}}
+        $ git remove -v
+
 * GitHub (URL: https://github.com/)
     - Sign up and Sign in
     - Create "New repository"
@@ -30,3 +34,8 @@ GIT AND GITHUB WORKFLOW
         > Description: 
         > Public
         Click "Create repository"
+
+* Benefits
+    1. BACKUP
+    2. VERSION CONTROL
+    3. PUBLIC ACCESS
