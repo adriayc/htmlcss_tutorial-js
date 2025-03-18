@@ -11,5 +11,7 @@ TEA STATION PROJECT
             > Project: Tea Station
             > Send emails to: adriano@mail.com
             Click "Create Form"
-            
+
             - Copy "FORM ENDPOINT": https://formspree.io/x/xxx
+
+* Netlify (URL: https://www.netlify.com/)
