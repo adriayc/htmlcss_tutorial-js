@@ -15,3 +15,18 @@ GIT AND GITHUB WORKFLOW
         $ git init
         $ git add .
         $ git commit -m "initial commit"
+
+        $ git log
+
+        Push github
+        $ git remote add origin https://github.com/{{USERNANE}}/{{REPO_NAME}}.git
+        $ git push -u origin master
+
+* GitHub (URL: https://github.com/)
+    - Sign up and Sign in
+    - Create "New repository"
+        > Owner: {{OWNER}}
+        > Repository name: temp-gitandgithub
+        > Description: 
+        > Public
+        Click "Create repository"
