@@ -15,3 +15,7 @@ TEA STATION PROJECT
             - Copy "FORM ENDPOINT": https://formspree.io/x/xxx
 
 * Netlify (URL: https://www.netlify.com/)
+    - Site / Add new site | Deploy manually / Drag & drop your site output folder here. Or, browser to upload.
+    - Site / {{PROJECT_NAME}} / Site overview | Site configuration / Change site name
+        > Site name: temp-tea-station
+        Click "Save"
