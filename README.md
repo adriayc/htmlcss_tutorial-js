@@ -179,3 +179,11 @@ Editor: Format On Save: true
 - Semantic HTML
 - object-fit
 - Emmet Snippets
+
+## CSS FLEXBOX
+
+- Flexible Box Model - Flexbox
+- One Dimension - Row or Column
+- NOT DEAD !!!
+- Browser Support - WWW.CANIUSE.COM
+- Browser Prefixes - Autoprefixer
