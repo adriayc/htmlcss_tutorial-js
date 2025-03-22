@@ -141,3 +141,54 @@ p {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
 }
+
+/* 
+===================
+Hero
+===================
+*/
+.hero {
+  min-height: 100vh;
+  background: var(--clr-primary-5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-banner {
+  color: var(--clr-white);
+  text-align: center;
+  padding: 0 3rem;
+}
+.hero-banner h1 {
+  text-transform: uppercase;
+}
+.hero-banner p {
+  max-width: 35rem;
+  color: var(--clr-white);
+  letter-spacing: var(--spacing);
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-btn {
+  color: var(--clr-primary-5);
+  background: var(--clr-white);
+  font-size: 1.25rem;
+  padding: 0.9rem 1.6rem;
+}
+.hero-btn:hover {
+  color: var(--clr-white);
+  background: transparent;
+  border-color: var(--clr-white);
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background: linear-gradient(rgba(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+      url('../images/main.jpeg') center/cover no-repeat;
+  }
+  .hero-banner {
+    padding: 0;
+  }
+  .hero-banner p {
+    max-width: 45rem;
+  }
+}
