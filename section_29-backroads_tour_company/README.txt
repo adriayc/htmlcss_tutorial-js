@@ -9,3 +9,6 @@ BACKROADS TOUR COMPANY
 
 *  Logo
     - Design logo in figma (URL: https://www.figma.com/)
+
+* Favicon
+    - Favicon.io (URL: https://favicon.io/)
