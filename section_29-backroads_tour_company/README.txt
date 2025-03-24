@@ -12,3 +12,7 @@ BACKROADS TOUR COMPANY
 
 * Favicon
     - Favicon.io (URL: https://favicon.io/)
+
+* VSCode Extensions
+    - Autoprefixer
+        > CTRL + SHIFT + P -> "> Autoprefixer: Run"
