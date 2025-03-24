@@ -516,3 +516,47 @@ Gallery
     flex: 0 0 25%;
   }
 }
+
+/* 
+===================
+Footer
+===================
+*/
+.footer {
+  background: var(--clr-grey-1);
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.footer-links,
+.footer-icons {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-link {
+  color: var(--clr-white);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  margin-right: 1rem;
+  transition: var(--transition);
+}
+.footer-link:hover {
+  color: var(--clr-primary-5);
+}
+.footer-icon {
+  color: var(--clr-primary-8);
+  font-size: 2rem;
+  margin-right: 1rem;
+  transition: var(--transition);
+}
+.footer-icon:hover {
+  color: var(--clr-primary-5);
+}
+.copyright {
+  color: var(--clr-white);
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+}
