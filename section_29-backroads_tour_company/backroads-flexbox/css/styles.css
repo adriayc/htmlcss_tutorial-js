@@ -469,3 +469,50 @@ Contact
     flex: 1 1 auto;
   }
 }
+
+/* 
+===================
+Gallery
+===================
+*/
+.gallery-img-container {
+  background: var(--clr-primary-5);
+  position: relative;
+}
+.gallery-icon {
+  color: var(--clr-white);
+  font-size: 2rem;
+  opacity: 0;
+  transition: var(--transition);
+  cursor: pointer;
+  /* center icon */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.gallery-img {
+  height: 17rem;
+  object-fit: cover;
+  transition: var(--transition);
+}
+.gallery-img-container:hover .gallery-img {
+  opacity: 0.5;
+}
+.gallery-img-container:hover .gallery-icon {
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  .gallery-center {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .gallery-img-container {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .gallery-img-container {
+    flex: 0 0 25%;
+  }
+}
