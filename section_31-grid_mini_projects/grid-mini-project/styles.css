@@ -1,4 +1,72 @@
+/* 
+=================
+Variables
+=================
+*/
+:root {
+  --primaryColor: #f15025;
+  --mainBlack: #222;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --darkGrey: #afafaf;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.2rem;
+}
+
+/* 
+=================
+Global Styles
+=================
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
   font-family: 'Fira Code', monospace;
-  font-weight: normal;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 1.25rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  margin-bottom: 0;
+}
+p {
+  font-size: 0.7rem;
+  font-weight: 300;
+  line-height: 2;
+}
+/* button */
+.btn {
+  color: var(--primaryColor);
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  border: 3px solid var(--primaryColor);
+  margin: 3rem;
+  display: inline-block;
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+.btn:hover {
+  color: var(--mainWhite);
+  background: var(--primaryColor);
 }
