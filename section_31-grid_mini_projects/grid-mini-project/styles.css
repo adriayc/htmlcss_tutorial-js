@@ -105,3 +105,49 @@ Main Navbar
     text-align: center;
   }
 }
+
+/* 
+=================
+Hero
+=================
+*/
+.hero-header {
+  min-height: 100vh;
+  color: var(--mainWhite);
+  background: var(--primaryColor);
+  display: grid;
+  /* aligns grid items along the inline (row) axis */
+  /* justify-items: center; */
+  /* aligns grid items along the block (column) axis */
+  /* align-items: center; */
+  /* place-items sets both the align-item and justify-items properties */
+  /* place-items: center; */
+
+  /* aligns the grid along the inline (row) axis */
+  /* justify-content: center; */
+  /* aligns the grid along the block (column) axis */
+  /* align-content: center; */
+  /* place content sets both the align-content and justify-content properties */
+  place-content: center;
+}
+.hero-banner {
+  /* background: blue; */
+  /* text-align: center; */
+  padding: 0 1rem;
+}
+.hero-banner p {
+  width: 80%;
+  max-width: 569px;
+  font-size: 1rem;
+}
+@media screen and (min-width: 600px) {
+  .hero-banner {
+    padding: 0 3rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-header {
+    background: linear-gradient(rgba(241, 80, 37, 0.75), rgba(0, 0, 0, 0.75)),
+      url('./images/image-2.jpeg') center/cover fixed no-repeat;
+  }
+}
