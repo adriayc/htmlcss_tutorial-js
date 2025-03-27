@@ -70,3 +70,38 @@ p {
   color: var(--mainWhite);
   background: var(--primaryColor);
 }
+
+/* 
+=================
+Main Navbar
+=================
+*/
+.main-navbar {
+  background: var(--darkGrey);
+  padding: 0 2rem;
+}
+.main-navbar li {
+  list-style-type: none;
+}
+.main-navbar a {
+  color: var(--primaryColor);
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  padding: 1rem 0;
+  display: block;
+  transition: var(--mainTransition);
+}
+.main-navbar a:hover {
+  color: var(--mainBlack);
+}
+@media screen and (min-width: 992px) {
+  .main-navbar ul {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .main-navbar a {
+    text-align: center;
+  }
+}
