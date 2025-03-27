@@ -185,7 +185,7 @@ Cards
 .card-footer span {
   color: var(--primaryColor);
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .cards-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -196,4 +196,27 @@ Cards
   .cards-center {
     grid-template-columns: repeat(3, 1fr);
   }
+} */
+
+/* ** At 1170px show 3 cards ** */
+/* total spaces between cards */
+/* 2rem * 16px = 32px * 2 = 64px */
+/* width of each card */
+/* 1170px - 64px = 1106 / 3 = 368.666px */
+/* ** At 1170px show 3 cards ** */
+/* total spaces between cards */
+/* 2rem * 16 = 32px * 3 = 96px */
+/* width of each card */
+/* 1170px - 96px = 1074 / 4 = 268.5px */
+.cards-center {
+  display: grid;
+  /* three column layout */
+  /* the auto-fit property behaves similarly to auto-fill but with one key different: it collapses empty columns */
+  /* grid-template-columns: repeat(auto-fit, minmax(368.666px, 1fr)); */
+  /* the auto-fill property fills the grid with as many columns as it can fit within the available space */
+  /* grid-template-columns: repeat(auto-fill, minmax(368.666px, 1fr)); */
+  /* four column layout */
+  grid-template-columns: repeat(auto-fill, minmax(268.5px, 1fr));
+
+  column-gap: 2rem;
 }
