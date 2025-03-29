@@ -160,3 +160,38 @@ p {
     width: 95vw;
   }
 }
+
+/* 
+==================
+Navbar
+==================
+*/
+.nav-links {
+  display: none;
+}
+.nav {
+  height: 5rem;
+  padding: 1rem;
+  transition: var(--transition);
+  display: grid;
+  align-items: center;
+}
+.nav-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.nav-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.nav-btn {
+  color: var(--clr-primary-5);
+  background: transparent;
+  font-size: 2rem;
+  border-color: transparent;
+  cursor: pointer;
+  /* justify-content: space-between; */
+  justify-self: end;
+}
