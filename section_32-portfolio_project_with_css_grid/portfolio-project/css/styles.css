@@ -226,6 +226,16 @@ Navbar
     color: var(--clr-primary-5);
   }
 }
+/* fixed navbar */
+.navbar-fixed {
+  width: 100%;
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
 /* 
 ==================
@@ -294,4 +304,9 @@ Sidebar
 }
 .social-icon:hover {
   color: var(--clr-primary-5);
+}
+
+.hero {
+  background: red;
+  min-height: 130vh;
 }
