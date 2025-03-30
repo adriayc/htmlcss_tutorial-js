@@ -248,6 +248,9 @@ Sidebar
   /* align-content: center; */
   place-content: center;
 }
+.show-sidebar {
+  transform: translateX(0);
+}
 .close-btn {
   color: #bb2525;
   background: transparent;
