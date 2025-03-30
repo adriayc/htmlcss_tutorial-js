@@ -524,3 +524,15 @@ Projects
 .project:hover .project-info {
   opacity: 1;
 }
+@media screen and (min-width: 768px) {
+  .projects-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .projects-center {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
