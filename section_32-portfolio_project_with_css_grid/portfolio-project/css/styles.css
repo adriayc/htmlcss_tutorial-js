@@ -576,6 +576,8 @@ Connect
   padding: 10rem 0 5rem 0;
   margin: 5rem 0;
   position: relative;
+  display: grid;
+  place-items: center;
 }
 .connect::after {
   content: '';
@@ -587,6 +589,7 @@ Connect
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 .video-container {
   width: 100%;
@@ -595,4 +598,16 @@ Connect
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -2;
+}
+.video-banner {
+  background: var(--clr-primary-10);
+  text-align: center;
+  padding: 3rem 5rem 12rem 5rem;
+}
+.video-banner .section-title {
+  margin-bottom: 2rem;
+}
+.video-text {
+  max-width: 30rem;
 }
