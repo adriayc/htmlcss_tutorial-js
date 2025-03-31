@@ -578,6 +578,8 @@ Connect
   position: relative;
   display: grid;
   place-items: center;
+  /* clip-path */
+  clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
 }
 .connect::after {
   content: '';
@@ -604,6 +606,16 @@ Connect
   background: var(--clr-primary-10);
   text-align: center;
   padding: 3rem 5rem 12rem 5rem;
+  /* clip-path */
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
 }
 .video-banner .section-title {
   margin-bottom: 2rem;
