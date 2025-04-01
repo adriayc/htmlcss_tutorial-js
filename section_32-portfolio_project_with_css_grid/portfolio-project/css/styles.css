@@ -687,3 +687,67 @@ Skills
     column-gap: 2rem;
   }
 }
+
+/* 
+==================
+Timeline
+==================
+*/
+.timeline-center {
+  width: 80vw;
+  max-width: 40rem;
+}
+.timeline-item {
+  padding: 4rem 2rem;
+  border-top: 2px dashed var(--clr-primary-5);
+  margin: 0;
+  position: relative;
+}
+/* select all even siblings  */
+.timeline-item:nth-child(even) {
+  border-left: 2px dashed var(--clr-primary-5);
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+
+  padding-right: 0;
+  margin-right: 2rem;
+}
+/* select all odd siblings  */
+.timeline-item:nth-child(odd) {
+  border-right: 2px dashed var(--clr-primary-5);
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+
+  padding-left: 0;
+  margin-left: 2rem;
+}
+/* select the first sibling in the list */
+.timeline-item:first-child {
+  border-top: 0;
+  border-top-right-radius: 0;
+}
+/* select the last sibling in the list */
+.timeline-item:last-child {
+  border-bottom-left-radius: 0;
+}
+.number {
+  width: 2rem;
+  height: 2rem;
+  color: var(--clr-primary-1);
+  background: var(--clr-primary-5);
+  font-weight: bold;
+  border-radius: 50%;
+  margin-bottom: 0;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.timeline-item:nth-child(even) .number {
+  left: 0;
+}
+.timeline-item:nth-child(odd) .number {
+  right: 0;
+  transform: translate(50%, -50%);
+}
