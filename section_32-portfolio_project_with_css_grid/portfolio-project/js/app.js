@@ -21,3 +21,8 @@ window.addEventListener('scroll', () => {
     navbar.classList.remove('navbar-fixed');
   }
 });
+
+/* ***** footer ***** */
+const date = document.querySelector('#date');
+// set date
+date.innerHTML = new Date().getFullYear();
