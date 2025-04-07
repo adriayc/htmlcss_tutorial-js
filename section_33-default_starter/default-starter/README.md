@@ -45,7 +45,7 @@ Alternative/Fancier way of doing this
 
 Make some adjustments
 
-## Colors
+## Colors (HERE!)
 
 ```css
 :root {

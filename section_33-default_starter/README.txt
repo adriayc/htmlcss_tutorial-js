@@ -8,3 +8,7 @@ DEFAULT STARTER
         - Pagecloud (URL: https://www.pagecloud.com/blog/best-google-fonts-pairings)
     + Gap the CSS
         - Typescale (URL: https://typescale.com/)
+
+* Colors
+    - coolors (URL: https://coolors.co/)
+    - happyhues (URL: https://www.happyhues.co/)
