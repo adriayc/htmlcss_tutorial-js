@@ -12,3 +12,4 @@ DEFAULT STARTER
 * Colors
     - coolors (URL: https://coolors.co/)
     - happyhues (URL: https://www.happyhues.co/)
+    - shadowlord (URL: https://noeldelgado.github.io/shadowlord/#73fdad)
