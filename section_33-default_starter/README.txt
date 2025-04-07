@@ -13,3 +13,6 @@ DEFAULT STARTER
     - coolors (URL: https://coolors.co/)
     - happyhues (URL: https://www.happyhues.co/)
     - shadowlord (URL: https://noeldelgado.github.io/shadowlord/#73fdad)
+
+    - bootstrap (URL: https://getbootstrap.com/docs/5.0/customize/color/#color-sass-maps)
+    - tailwindcss (URL: https://tailwindcss.com/docs/customizing-colors#color-palette-reference)
