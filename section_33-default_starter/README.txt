@@ -16,3 +16,6 @@ DEFAULT STARTER
 
     - bootstrap (URL: https://getbootstrap.com/docs/5.0/customize/color/#color-sass-maps)
     - tailwindcss (URL: https://tailwindcss.com/docs/customizing-colors#color-palette-reference)
+
+* Box Shadow
+    - tailwindcss (URL: https://tailwindcss.com/docs/box-shadow)
