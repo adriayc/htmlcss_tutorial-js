@@ -123,3 +123,10 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+/* img:not(.logo) {} */
