@@ -217,3 +217,20 @@ ul {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
 }
+
+/* loading */
+.loading {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  border: 5px solid var(--grey-400);
+  border-radius: 50%;
+  border-top-color: var(--primary-500);
+  /* animation */
+  animation: spinner 0.6s linear infinite;
+}
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
