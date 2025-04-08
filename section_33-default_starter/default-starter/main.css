@@ -51,7 +51,7 @@ html {
   --bodyFont: 'Karla', sans-serif;
   --smallText: 0.7em;
   /* rest of the vars */
-  --backgroundColor: var(var(--grey-50));
+  --backgroundColor: var(--grey-50);
   --textColor: var(--grey-900);
   --borderRadius: 0.25rem;
   --letterSpacing: 1px;
@@ -95,7 +95,7 @@ h5 {
 
 h1 {
   font-size: 3.052rem;
-  margin-bottom: 0;
+  margin-top: 0;
 }
 h2 {
   font-size: 2.441rem;
@@ -233,4 +233,19 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* title */
+.title {
+  text-align: center;
+}
+/* .title h2 {
+  margin-bottom: 0.25rem;
+} */
+.title-underline {
+  width: 7rem;
+  height: 0.25rem;
+  background: var(--primary-500);
+  margin: 0 auto;
+  margin-top: -1rem;
 }
