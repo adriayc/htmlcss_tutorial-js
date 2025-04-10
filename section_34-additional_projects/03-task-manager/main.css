@@ -345,3 +345,50 @@ Tasks
 .delete-btn {
   color: var(--red-dark);
 }
+
+/*
+================
+Single Task Page
+================
+*/
+.single-task-form {
+  margin-top: 6rem;
+}
+.single-task-form h4 {
+  text-align: center;
+}
+.single-task-form p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.single-task-form .form-control {
+  margin-bottom: 0.75rem;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  gap: 0 1rem;
+}
+.single-task-form label {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.single-task-form .form-alert {
+  text-align: center;
+  margin-top: 1rem;
+}
+.single-task-form .task-edit-completed {
+  justify-self: start;
+}
+
+.back-link {
+  width: 250px;
+  background: var(--black);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 6rem;
+  display: block;
+}
+.back-link:hover {
+  background: var(--black);
+  opacity: 0.75;
+}
