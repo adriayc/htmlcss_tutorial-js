@@ -291,8 +291,12 @@ Sidebar
   display: grid;
   grid-template-rows: auto 1fr auto;
   /* TODO hide sidebar */
+  transform: translateX(-100%);
 }
 /* TODO show sidebar */
+.show-sidebar {
+  transform: translateX(0);
+}
 @media screen and (min-width: 676px) {
   .sidebar {
     width: 400px;
