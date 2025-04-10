@@ -245,3 +245,86 @@ ul {
   margin: 0 auto;
   margin-top: -1rem;
 }
+
+/*
+================
+Grocery Bud
+================
+*/
+.section-center {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  background: var(--white);
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-2);
+  transition: var(--transition);
+}
+.section-center:hover {
+  box-shadow: var(--shadow-4);
+}
+.alert {
+  font-size: 0.7rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+}
+.grocery-form h4 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.grocery-form .form-row {
+  display: flex;
+}
+.grocery-form .form-input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.submit-btn {
+  width: 100px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.grocery-container {
+  margin-top: 2rem;
+}
+.grocery-item {
+  color: var(--grey-700);
+  text-transform: capitalize;
+  padding: 0.25rem 1rem;
+  border-radius: var(--borderRadius);
+  margin-bottom: 0.5rem;
+  transition: var(--transition);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grocery-item:hover {
+  color: var(--grey-500);
+  background: var(--grey-100);
+}
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  font-size: 0.7rem;
+  border-color: transparent;
+  cursor: pointer;
+}
+.edit-btn {
+  color: var(--green-dark);
+}
+.delete-btn {
+  color: var(--red-dark);
+}
+.clear-btn {
+  width: 100%;
+  color: var(--red-dark);
+  background: transparent;
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+  border-color: transparent;
+  margin-top: 1rem;
+  cursor: pointer;
+}
