@@ -245,3 +245,27 @@ ul {
   margin: 0 auto;
   margin-top: -1rem;
 }
+
+/*
+================
+Sidebar
+================
+*/
+.hero {
+  min-height: 100vh;
+  background: url('./hero.jpeg') center/cover no-repeat;
+  display: grid;
+  place-items: center;
+}
+.banner {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  background: var(--white);
+  text-align: center;
+  padding: 4rem 0;
+  border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-2);
+}
+.modal-overlay {
+  display: none;
+}
