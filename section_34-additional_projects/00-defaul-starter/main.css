@@ -1,9 +1,5 @@
-body {
-  padding: 2rem 2rem;
-}
-
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *,
 ::after,
@@ -47,8 +43,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts */
-  --headingFont: 'Spectral', serif;
-  --bodyFont: 'Karla', sans-serif;
+  --headingFont: 'Roboto', sans-serif;
+  --bodyFont: 'Nunito', sans-serif;
   --smallText: 0.7em;
   /* rest of the vars */
   --backgroundColor: var(--grey-50);
