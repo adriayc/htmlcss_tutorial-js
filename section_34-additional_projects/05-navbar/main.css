@@ -303,3 +303,43 @@ nav {
   /* get height 160px 10rem */
 }
 /* todo .show-links */
+
+@media screen and (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
+  .nav-center {
+    max-width: var(--max-width);
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .links {
+    display: flex;
+    /* todo height */
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    background: transparent;
+    padding-left: 0;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    color: var(--primary-500);
+    margin: 0 0.5rem;
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: var(--primary-300);
+  }
+}
