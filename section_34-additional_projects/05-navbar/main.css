@@ -245,3 +245,61 @@ ul {
   margin: 0 auto;
   margin-top: -1rem;
 }
+
+/*
+================
+Navbar
+================
+*/
+nav {
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  line-height: 1;
+}
+.nav-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.logo span {
+  color: var(--primary-500);
+}
+.nav-toggle {
+  color: var(--primary-500);
+  background: transparent;
+  font-size: 1.5rem;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  transform: rotate(90deg);
+}
+.social-icons {
+  display: none;
+}
+.links a {
+  color: var(--grey-700);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+  padding: 0.75rem 1rem;
+  transition: var(--transition);
+  display: block;
+}
+.links a:hover {
+  color: var(--primary-500);
+  background: var(--primary-300);
+  padding-left: 1.5rem;
+}
+.links {
+  margin: 0;
+  /* todo height overflow transition */
+  /* get height 160px 10rem */
+}
+/* todo .show-links */
