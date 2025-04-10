@@ -8,3 +8,4 @@ ADDITIONAL PROJECTS
 * Reviews
 * Navbar
 * Sidebar
+* Modal
