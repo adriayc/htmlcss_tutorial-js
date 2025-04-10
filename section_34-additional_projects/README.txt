@@ -6,3 +6,4 @@ ADDITIONAL PROJECTS
 * Counter
 * Task Manager
 * Reviews
+* Navbar
