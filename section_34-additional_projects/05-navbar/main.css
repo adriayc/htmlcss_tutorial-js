@@ -299,10 +299,16 @@ nav {
 }
 .links {
   margin: 0;
+
   /* todo height overflow transition */
+  height: 0;
+  overflow: hidden;
   /* get height 160px 10rem */
 }
 /* todo .show-links */
+.show-links {
+  height: 10rem;
+}
 
 @media screen and (min-width: 800px) {
   .nav-toggle {
@@ -322,6 +328,7 @@ nav {
   .links {
     display: flex;
     /* todo height */
+    height: auto;
   }
   .links a {
     padding: 0;
