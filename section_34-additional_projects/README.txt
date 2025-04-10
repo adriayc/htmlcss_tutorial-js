@@ -7,3 +7,4 @@ ADDITIONAL PROJECTS
 * Task Manager
 * Reviews
 * Navbar
+* Sidebar
