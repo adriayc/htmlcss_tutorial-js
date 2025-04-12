@@ -1,9 +1,5 @@
-body {
-  padding: 2rem 2rem;
-}
-
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *,
 ::after,
@@ -47,8 +43,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts */
-  --headingFont: 'Spectral', serif;
-  --bodyFont: 'Karla', sans-serif;
+  --headingFont: 'Roboto', sans-serif;
+  --bodyFont: 'Nunito', sans-serif;
   --smallText: 0.7em;
   /* rest of the vars */
   --backgroundColor: var(--grey-50);
@@ -248,4 +244,151 @@ ul {
   background: var(--primary-500);
   margin: 0 auto;
   margin-top: -1rem;
+}
+
+/*
+================
+Task Manager
+================
+*/
+.task-form {
+  margin-top: 6rem;
+}
+.task-form h4 {
+  text-align: center;
+}
+.submit-btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+.text-success {
+  color: var(--green-dark);
+}
+@media screen and (min-width: 576px) {
+  .form-control {
+    display: flex;
+  }
+  .task-input {
+    border-radius: 0;
+    border-top-left-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+  }
+  .submit-btn {
+    width: 175px;
+    border-radius: 0;
+    border-top-right-radius: var(--borderRadius);
+    border-bottom-right-radius: var(--borderRadius);
+    margin-top: 0;
+  }
+}
+
+/*
+================
+Tasks
+================
+*/
+.tasks-container {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  padding-bottom: 4rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.tasks {
+  display: grid;
+  gap: 1rem;
+}
+.single-task {
+  background: var(--white);
+  padding: 1rem 2.5rem;
+  border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-2);
+  transition: var(--transition);
+  display: flex;
+  justify-content: space-between;
+}
+.single-task:hover {
+  box-shadow: var(--shadow-4);
+}
+.single-task h5 {
+  margin-bottom: 0;
+}
+.single-task .fa-check-circle {
+  color: var(--green-dark);
+  font-size: 1rem;
+  margin-left: -1.25rem;
+  margin-right: 1.5rem;
+  visibility: hidden;
+}
+.task-completed h5 {
+  text-decoration: line-through;
+}
+.task-completed .fa-check-circle {
+  visibility: visible;
+}
+/* task links */
+.task-links {
+  display: flex;
+  align-items: center;
+  gap: 0 0.5rem;
+}
+.delete-btn,
+.edit-link {
+  background: transparent;
+  font-size: 0.75rem;
+  border: transparent;
+  cursor: pointer;
+}
+.edit-link {
+  color: var(--green-dark);
+}
+.delete-btn {
+  color: var(--red-dark);
+}
+
+/*
+================
+Single Task Page
+================
+*/
+.single-task-form {
+  margin-top: 6rem;
+}
+.single-task-form h4 {
+  text-align: center;
+}
+.single-task-form p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.single-task-form .form-control {
+  margin-bottom: 0.75rem;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  gap: 0 1rem;
+}
+.single-task-form label {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.single-task-form .form-alert {
+  text-align: center;
+  margin-top: 1rem;
+}
+.single-task-form .task-edit-completed {
+  justify-self: start;
+}
+
+.back-link {
+  width: 250px;
+  background: var(--black);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 6rem;
+  display: block;
+}
+.back-link:hover {
+  background: var(--black);
+  opacity: 0.75;
 }

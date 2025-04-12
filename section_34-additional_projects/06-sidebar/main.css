@@ -1,9 +1,5 @@
-body {
-  padding: 2rem 2rem;
-}
-
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *,
 ::after,
@@ -47,8 +43,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts */
-  --headingFont: 'Spectral', serif;
-  --bodyFont: 'Karla', sans-serif;
+  --headingFont: 'Roboto', sans-serif;
+  --bodyFont: 'Nunito', sans-serif;
   --smallText: 0.7em;
   /* rest of the vars */
   --backgroundColor: var(--grey-50);
@@ -248,4 +244,110 @@ ul {
   background: var(--primary-500);
   margin: 0 auto;
   margin-top: -1rem;
+}
+
+/*
+================
+Sidebar
+================
+*/
+.sidebar-toggle {
+  color: var(--primary-500);
+  background: transparent;
+  font-size: 2rem;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  /* animation */
+  animation: bounce 2s ease-in-out infinite;
+}
+.sidebar-toggle:hover {
+  color: var(--primary-700);
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.sidebar {
+  width: 100%;
+  height: 100%;
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  transition: var(--transition);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  /* TODO hide sidebar */
+  transform: translateX(-100%);
+}
+/* TODO show sidebar */
+.show-sidebar {
+  transform: translateX(0);
+}
+@media screen and (min-width: 676px) {
+  .sidebar {
+    width: 400px;
+  }
+}
+.sidebar-header {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+}
+.close-btn {
+  color: var(--red-dark);
+  background: transparent;
+  font-size: 1.75rem;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.close-btn:hover {
+  transform: rotate(360deg);
+}
+.links a {
+  color: var(--grey-500);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1rem 1.5rem;
+  display: block;
+  transition: var(--transition);
+}
+.links a:hover {
+  color: var(--primary-600);
+  background: var(--primary-300);
+  padding-left: 1.75rem;
+}
+
+.social-icons {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 0 1rem;
+}
+.social-icons a {
+  color: var(--primary-500);
+  font-size: 1.5rem;
+  /* margin: 0 0.5rem; */
+  transition: var(--transition);
+}
+.social-icons a:hover {
+  color: var(--primary-300);
 }

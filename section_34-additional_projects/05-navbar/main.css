@@ -1,9 +1,5 @@
-body {
-  padding: 2rem 2rem;
-}
-
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *,
 ::after,
@@ -47,8 +43,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts */
-  --headingFont: 'Spectral', serif;
-  --bodyFont: 'Karla', sans-serif;
+  --headingFont: 'Roboto', sans-serif;
+  --bodyFont: 'Nunito', sans-serif;
   --smallText: 0.7em;
   /* rest of the vars */
   --backgroundColor: var(--grey-50);
@@ -248,4 +244,109 @@ ul {
   background: var(--primary-500);
   margin: 0 auto;
   margin-top: -1rem;
+}
+
+/*
+================
+Navbar
+================
+*/
+nav {
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  line-height: 1;
+}
+.nav-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.logo span {
+  color: var(--primary-500);
+}
+.nav-toggle {
+  color: var(--primary-500);
+  background: transparent;
+  font-size: 1.5rem;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  transform: rotate(90deg);
+}
+.social-icons {
+  display: none;
+}
+.links a {
+  color: var(--grey-700);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+  padding: 0.75rem 1rem;
+  transition: var(--transition);
+  display: block;
+}
+.links a:hover {
+  color: var(--primary-500);
+  background: var(--primary-300);
+  padding-left: 1.5rem;
+}
+.links {
+  margin: 0;
+
+  /* todo height overflow transition */
+  height: 0;
+  overflow: hidden;
+  /* get height 160px 10rem */
+}
+/* todo .show-links */
+.show-links {
+  height: 10rem;
+}
+
+@media screen and (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
+  .nav-center {
+    max-width: var(--max-width);
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .links {
+    display: flex;
+    /* todo height */
+    height: auto;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    background: transparent;
+    padding-left: 0;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    color: var(--primary-500);
+    margin: 0 0.5rem;
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: var(--primary-300);
+  }
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager || Edit Task</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <form class="form single-task-form">
+      <h4>Edit Task</h4>
+      <div class="form-control">
+        <label class="form-label">Task ID</label>
+        <p class="task-edit-id">123456789</p>
+      </div>
+      <div class="form-control">
+        <label for="task-edit-name" class="form-label">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="task-edit-name"
+          class="form-input task-edit-name"
+          value="walk the dog"
+        />
+      </div>
+      <div class="form-control">
+        <label for="task-edit-completed" class="form-label">Completed</label>
+        <input
+          type="checkbox"
+          name="completed"
+          id="task-edit-completed"
+          class="task-edit-completed"
+        />
+      </div>
+      <button type="submit" class="btn btn-block task-edit-btn">edit</button>
+      <div class="form-alert text-small">there was an error</div>
+    </form>
+    <a href="index.html" class="btn back-link">back to tasks</a>
+  </body>
+</html>
