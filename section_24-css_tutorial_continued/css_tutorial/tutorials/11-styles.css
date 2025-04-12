@@ -1,0 +1,19 @@
+/* :IS() */
+/* 
+:is()
+
+The :is() CSS pseudo-class function takes a selector list as its argument, and selects any element that c be selected by on of the selectors in that list.
+
+Write less code
+*/
+
+/* nav h2:hover,
+header h2:hover,
+section h2:hover {
+  color: red;
+} */
+
+/* :is(nav, header, section) h2:hover { */
+:is(nav, header) h2:hover {
+  color: red;
+}

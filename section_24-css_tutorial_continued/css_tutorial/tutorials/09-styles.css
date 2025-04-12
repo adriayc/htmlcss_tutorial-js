@@ -1,0 +1,22 @@
+/* OBJECT-FIT */
+/* 
+object-fit: cover|contain|fill|none|scale-down
+*/
+
+img {
+  width: 100%;
+  display: block;
+  height: 300px;
+  /* objet-fit */
+  object-fit: cover;
+}
+.one {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+.two {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}

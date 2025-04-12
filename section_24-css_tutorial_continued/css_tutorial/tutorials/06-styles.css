@@ -1,0 +1,33 @@
+/* TEXT-SHADOW AND BOX-SHADOW */
+/* 
+text-shadow
+box-shadow
+*/
+
+h1 {
+  /* h-shadow v-shadow blur-radius color */
+  /* text-shadow: 2px 2px 5px red; */
+  /* text-shadow: 2px 0 0 red; */
+  /* text-shadow: 0 10px 0 red; */
+  /* text-shadow: 0 0 6px red; */
+  /* text-shadow generator */
+  text-shadow: 5px 5px 5px rgba(134, 14, 14, 0.6);
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin: 20px;
+  /* none|h-offset v-offset blur spread color */
+  box-shadow: 3px 5px 5px green;
+  /* box-shadow: 5px 0 0 green; */
+  /* box-shadow: 0 5px 0 green; */
+  /* box-shadow: 0 5px 5px green; */
+  /* box-shadow generator */
+  /* box-shadow: 10px 10px 20px -4px rgba(5, 148, 43, 0.86); */
+  transition: all 2s ease-in-out;
+}
+box:hover {
+  box-shadow: 10px 10px 20px -4px rgba(5, 148, 43, 0.86);
+}

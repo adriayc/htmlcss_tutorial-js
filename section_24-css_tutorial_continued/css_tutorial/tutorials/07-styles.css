@@ -1,0 +1,30 @@
+/* BROWSER PREFIXES */
+/* 
+-webkit- chrome, safari, newer versions of opera and edge
+-mox- firefox
+-o- old pre-webkit versions of opera
+-ms- internet explore and microsoft edge
+*/
+
+h1 {
+  /* h-shadow v-shadow blur-radius color */
+  text-shadow: 5px 5px 5px rgba(134, 14, 14, 0.6);
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin: 20px;
+  /* none|h-offset v-offset blur spread color */
+  box-shadow: 3px 5px 5px green;
+  transition: all 2s ease-in-out;
+}
+box:hover {
+  /* browser prefixes */
+  -webkit-box-shadow: 10px 10px 20px -4px rgba(5, 148, 43, 0.86);
+  -moz-box-shadow: 10px 10px 20px -4px rgba(5, 148, 43, 0.86);
+  -ms-box-shadow: 10px 10px 20px -4px rgba(5, 148, 43, 0.86);
+  -o-box-shadow: 10px 10px 20px -4px rgba(5, 148, 43, 0.86);
+  box-shadow: 10px 10px 20px -4px rgba(5, 148, 43, 0.86);
+}

@@ -1,0 +1,10 @@
+/* :NOT() */
+/* 
+:not()
+
+The :not() pseudo-class represents elements that not match a list of selectors. Since it prevents specific items form being selected.
+*/
+
+.special :not(h1) {
+  color: red;
+}
