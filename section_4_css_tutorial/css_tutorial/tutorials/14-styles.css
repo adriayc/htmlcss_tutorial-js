@@ -1,0 +1,35 @@
+/* LAST RULE, SPECIFICITY AND (*) UNIVERSAL SELECTOR */
+/* * {
+  color: brown;
+} */
+
+.special {
+  color: green;
+}
+p {
+  color: red;
+}
+/* 
+More code here
+...
+
+
+
+ */
+/* Last rule */
+p {
+  color: blue;
+}
+
+/* ID is more specificity than CLASS */
+#heading {
+  color: red;
+}
+.heading {
+  color: green;
+}
+
+/* The universal selector (*) does not affect specificity */
+* {
+  color: brown;
+}
