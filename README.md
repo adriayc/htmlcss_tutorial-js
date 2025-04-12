@@ -91,3 +91,11 @@ Editor: Format On Save: true
 - HTML - STRUCTURE, CSS - LAYOUT, LOOK
 - selector { property: value }
 - h1 { color: red; font-size: 30px }
+
+## All Projects Intro
+
+1. After every tutorial section
+2. Only the most important things
+3. Simple in the beginning
+4. Repetition
+5. Multiple possible solutions
