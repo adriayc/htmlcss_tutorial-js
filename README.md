@@ -108,3 +108,11 @@ Editor: Format On Save: true
 - Hex
 - Visual Studio Code Color Options
 - External Resources
+
+## CSS Units
+
+- absolute, relative
+- pixels
+- em, rem
+- vw, vh
+- font-size, height, width

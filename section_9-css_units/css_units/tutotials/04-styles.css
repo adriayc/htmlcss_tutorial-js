@@ -1,0 +1,22 @@
+/* REM UNITS */
+/* 
+rem - RELATIVE, depends on root (html tag)
+- 1rem = base value (16px) * number (1) = 16px
+- 2rem = base value (16px) * number (2) = 32px
+- 2rem = base value (10px) * number (2) = 20px ()
+*/
+
+/* HTML tag is root */
+html {
+  font-size: 10px;
+}
+div {
+  font-size: 5px;
+}
+
+.absolute {
+  font-size: 32px;
+}
+.relative {
+  font-size: 2rem; /* 16px * 2 = 32px */
+}

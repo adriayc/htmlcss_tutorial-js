@@ -1,0 +1,19 @@
+/* EM UNITS */
+/* 
+em - RELATIVE, depends on parent
+- 1 em - 16px default browser style
+- 1 em = base value (16px) * number (1) = 16px
+- 2 em = base value (16px) * number (2) = 32px
+- 2 em = base value (10px) * number (2) = 20px
+*/
+
+div {
+  font-size: 10px;
+}
+
+.absolute {
+  font-size: 32px;
+}
+.relative {
+  font-size: 2em; /* 10px * 2 = 20px */
+}
