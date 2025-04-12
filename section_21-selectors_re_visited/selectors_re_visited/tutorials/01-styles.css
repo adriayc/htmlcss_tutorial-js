@@ -1,0 +1,23 @@
+/* BASIC SELECTORS */
+
+/* universal selector */
+* {
+  color: red;
+}
+
+/* id selector */
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: blue;
+}
+/* class selector */
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: green;
+}
+/* element selector */
+p {
+  letter-spacing: 5px;
+}

@@ -1,0 +1,18 @@
+/* :HOVER PSEUDO-CLASS SELECTOR */
+/* 
+:hover
+*/
+
+div:hover {
+  color: green;
+}
+.header:hover {
+  color: white;
+  background: blue;
+  letter-spacing: 5px;
+}
+a:hover {
+  text-decoration: none;
+  font-size: 20px;
+  background: pink;
+}
