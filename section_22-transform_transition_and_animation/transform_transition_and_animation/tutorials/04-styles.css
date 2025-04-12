@@ -1,0 +1,24 @@
+/* TRANSFORM: ROTATE() */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  /* transform: rotate(-20deg); */
+  transform: rotateZ(20deg);
+}
+.two {
+  background: blue;
+  /* transform: rotate(20deg); */
+  transform: rotate(380deg);
+}
+.three {
+  background: green;
+  /* transform: rotateX(10deg); */
+  /* transform: rotateX(90deg); */
+  transform: rotateX(50deg);
+  /* transform: rotateX(90deg); */
+}

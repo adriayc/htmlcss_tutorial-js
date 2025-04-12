@@ -1,0 +1,43 @@
+/* ANIMATION-FILL-MODE */
+/* 
+animation-fill-mode: what values are applied by the animation outside the time it is executing.
+- none = default value.
+- forwards = the element will retain the style values that is set by the last keyframe.
+- backwards = the element will get the style values that is set by the first keyframe.
+- both = the animation will follow the rules for both forwards and backwards. 
+*/
+
+div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+  opacity: 0;
+}
+/* animation */
+.animation {
+  background: blue;
+  animation: move 5s 2;
+  animation-fill-mode: forwards;
+  /* animation-fill-mode: backwards; */
+}
+@keyframes move {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100px);
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(20px);
+    opacity: 1;
+  }
+}

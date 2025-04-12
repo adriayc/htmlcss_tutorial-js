@@ -1,0 +1,19 @@
+/* TRANSLATE HERO EXAMPLE */
+
+* {
+  margin: 0;
+}
+
+.hero {
+  min-height: 100vh;
+  position: relative;
+}
+.hero-center {
+  min-width: 300px;
+  border: 2px solid red;
+  /* center div */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

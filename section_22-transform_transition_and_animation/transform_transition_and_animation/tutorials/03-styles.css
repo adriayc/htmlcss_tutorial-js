@@ -1,0 +1,21 @@
+/* TRANSFORM: SCALE() */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  /* transform: scaleX(2); */
+  transform: scaleX(0.5);
+}
+.two {
+  background: blue;
+  transform: scaleY(0.5);
+}
+.three {
+  background: green;
+  /* transform: scale(1.2, 1.5); */
+  transform: scale(2);
+}

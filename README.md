@@ -162,3 +162,9 @@ Editor: Format On Save: true
 - Basic Selectors
 - Pseudo Class Selectors
 - Pseudo Element Selectors
+
+## Transform, Transition and Animation
+
+- transform: translate(), rotate(), scale(), skew()
+- transition: (change over time)
+- animation: (change over time with more control)
