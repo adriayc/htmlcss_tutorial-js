@@ -1,0 +1,10 @@
+/* COLOR NAMES */
+/* Color Names URL: https://www.w3schools.com/TAGS/ref_colornames.asp */
+#first {
+  color: white;
+  background-color: black;
+}
+#second {
+  color: red;
+  background: yellow;
+}
