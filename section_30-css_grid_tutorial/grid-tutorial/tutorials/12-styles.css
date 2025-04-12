@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #222;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  border: 5px solid black;
+}
+.cell {
+  color: #fff;
+  background: #dedede;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem;
+  border: 3px solid red;
+}
+.cell-1 {
+  background: #581f18;
+}
+.cell-2 {
+  background: #f08202;
+}
+.cell-3 {
+  background: #d95d39;
+}
+.cell-4 {
+  background: #202c59;
+}
+.cell-5 {
+  background: #51cb20;
+}

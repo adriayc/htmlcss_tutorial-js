@@ -187,3 +187,11 @@ Editor: Format On Save: true
 - NOT DEAD !!!
 - Browser Support - WWW.CANIUSE.COM
 - Browser Prefixes - Autoprefixer
+
+## CSS GRID
+
+- Flexbox IS NOT DEAD!!!
+- Two dimensional layouts
+- Browser Support - 95% (caniuse.com)
+- Browser Prefixes same as Flexbox
+- Tutorial + Mini Project + Projects
