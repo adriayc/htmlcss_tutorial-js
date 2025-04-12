@@ -1,0 +1,32 @@
+/* BACKGROUND-POSITION */
+
+div {
+  height: 300px;
+  color: white;
+  border: 2px solid red;
+}
+.big-img {
+  background: url('./big.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  background-position: 20% 50%;
+}
+.small-img {
+  background: url('./small.jpeg');
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* background-position: left; */
+  /* background-position: right; */
+  /* background-position: top; */
+  /* background-position: bottom; */
+  /* position: xpos ypos or x% y% */
+  /* background-position: 0 0; */
+  /* background-position: 20% 50%; */
+  background-position: 100% 100%;
+}
+.folder-img {
+  background: url('./images//folder-img.jpeg');
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
