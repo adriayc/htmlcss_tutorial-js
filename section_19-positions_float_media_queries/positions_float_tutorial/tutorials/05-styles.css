@@ -1,0 +1,40 @@
+/* POSITION ABSOLUTE */
+/* 
+position: static - default, always positioned according to the normal flow
+position: relative - position relative to it's normal position
+top, bottom, left and right
+position: absolute - relative to the parent with position: relative.
+will use other content to fill out the space
+*/
+
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /* position: relative; */
+}
+.one {
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.two {
+  background: green;
+  color: white;
+  /* position: relative; */
+}
+.special {
+  background: pink;
+  font-size: 20px;
+  color: #222;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+
+.container {
+  min-height: 100vh;
+  background: blue;
+}

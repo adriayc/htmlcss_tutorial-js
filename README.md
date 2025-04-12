@@ -148,3 +148,11 @@ Editor: Format On Save: true
 - background-attachment
 - linear-gradient + shorthand
 - ColorZilla
+
+## Positions, Float and Media Queries
+
+- float
+- position
+- media-queries
+- z-index
+- ::before ::after pseudo elements

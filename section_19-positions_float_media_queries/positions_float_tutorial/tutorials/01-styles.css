@@ -1,0 +1,18 @@
+/* FLOAT PROPERTY */
+
+.banner {
+  border: 5px solid red;
+}
+.one {
+  float: left;
+  /* float: right; */
+}
+.two {
+  float: right;
+  height: 40px;
+}
+p {
+  /* clear: right; */
+  /* clear: left; */
+  clear: both;
+}

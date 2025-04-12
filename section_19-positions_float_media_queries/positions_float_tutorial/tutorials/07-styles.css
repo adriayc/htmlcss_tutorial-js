@@ -1,0 +1,49 @@
+/* POSITION STICKY */
+/* 
+position: static - default, always positioned according to the normal flow
+position: relative - position relative to it's normal position
+top, bottom, left and right
+position: absolute - relative to the parent with position: relative.
+position: fixed - relative to viewport (screen), stays as we are scrolling.
+will use other content to fill out the space
+position: sticky - toggles between relative and fixed one the position is met in the viewport - then it sticky.
+one of the values top, left, bottom and right
+*/
+
+.nav {
+  background: red;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  position: sticky;
+  top: 0;
+  /* top: 20px; */
+  /* top: -20px; */
+
+  margin-top: 0;
+  width: 100%;
+}
+
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+}
+.one {
+  background: blue;
+  color: white;
+}
+.two {
+  background: green;
+  color: white;
+}
+.special {
+  background: pink;
+  font-size: 20px;
+  color: #222;
+}
+
+.container {
+  min-height: 100vh;
+  background: blue;
+}
