@@ -1,0 +1,35 @@
+/* MOBILE NAVBAR EXAMPLE */
+/* 
+BLOCK: browser respects width/height, top/bottom margin
+INLINE: browser does not respect width/height, top/bottom margin
+
+Navbar
+list-style-type: property
+descendant selectors
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  color: #f15025;
+  background: #222;
+  text-decoration: none;
+  letter-spacing: 2px;
+  display: block;
+  padding: 5px;
+  /* margin: 10px 10px; */
+}
+/* ul a {
+  color: green;
+} */

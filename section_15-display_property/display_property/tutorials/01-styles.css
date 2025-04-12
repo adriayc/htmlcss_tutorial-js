@@ -1,0 +1,21 @@
+/* DISPLAY PROPERTY */
+/* 
+ELEMENTS HAVE IT SET BY DEFAULT
+BLOCK: Always starts a new line and spans full width
+INLINE: Does not start a new line and spans only content
+*/
+
+.block {
+  background: blue;
+  color: white;
+  /* default "block" */
+  /* display: block; */
+  display: inline;
+}
+.inline {
+  background: red;
+  color: white;
+  /* default "inline" */
+  /* display: inline; */
+  display: block;
+}
