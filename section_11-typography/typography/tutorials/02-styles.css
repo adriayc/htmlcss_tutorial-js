@@ -1,0 +1,12 @@
+/* FONT-STACK GENERIC FONTS */
+/* 
+font-stack generic-family
+serif, san-serif, cursive, fantasy, monospace
+*/
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}

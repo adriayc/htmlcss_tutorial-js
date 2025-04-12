@@ -1,0 +1,41 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap');
+
+/* MORE TEXT PROPERTIES */
+/* 
+line-height - if number * by font-size
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+*/
+
+body {
+  font-size: 20px;
+  /* line-height: 40px; */
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+h1 {
+  /* font-size: 40px; */
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+  text-transform: uppercase;
+}
+.one {
+  /* letter-spacing: 5px; */
+  letter-spacing: 0.5rem;
+  line-height: 2.5;
+  text-decoration: overline;
+}
+.two {
+  word-spacing: 10px;
+  text-transform: lowercase;
+}
+.three {
+  text-transform: capitalize;
+}

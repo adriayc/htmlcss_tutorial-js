@@ -1,0 +1,24 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap');
+
+/* TEXT-ALIGN, TEXT-INDENT */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  /* text-align: center; */
+  /* text-align: left; */
+}
+.main-heading {
+  font-family: 'Trade Winds', system-ui;
+  text-align: center;
+}
+.sub-heading {
+}
+.one {
+}
+.two {
+  text-align: left;
+  /* text-indent: 50px; */
+  text-indent: 6rem;
+}

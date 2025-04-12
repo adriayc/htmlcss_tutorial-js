@@ -1,0 +1,29 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap');
+
+/* FONT-WEIGHT, FONT-STYLE */
+/* 
+font-weight how thick on thin character in text should be font-style sets font style for a text
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+.main-heading {
+  font-family: 'Trade Winds', system-ui;
+}
+.sub-heading {
+  /* font-style: italic; */
+}
+.one {
+  /* font-weight: 900; */
+  font-weight: bold;
+}
+.two {
+  /* font-weight: 700; */
+  font-weight: lighter;
+  /* font-style: italic; */
+  /* font-style: oblique; */
+  font-style: normal;
+}
